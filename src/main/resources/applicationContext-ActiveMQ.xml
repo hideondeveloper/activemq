@@ -26,7 +26,7 @@
                            userName="admin"
                            password="admin" />
 
-    <!-- 配置JMS连接工长 -->
+    <!-- 配置JMS连接工厂 -->
     <bean id="connectionFactory"
           class="org.springframework.jms.connection.CachingConnectionFactory">
         <constructor-arg ref="amqConnectionFactory" />
